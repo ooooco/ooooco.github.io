@@ -1,3 +1,3 @@
-var posts=["2026/08/27/Idm激活/","2026/07/29/瓦学家_开篇/","2026/07/28/players/","2026/07/27/crosshair-library/"];function toRandomPost(){
+var posts=["2026/09/11/2026AI全景自主智能体与现实检验/","2026/09/11/2026-ai-landscape-agents-and-trends/","2026/09/11/免费AI工具清单按用途分类/","2026/09/11/2026主流AI对话工具横评/","2026/09/11/用AI辅助写技术博客的提示词工作流/","2026/09/11/181个行业案例里普通人能用上哪些AI/","2026/09/11/2026AI核心趋势从世界模型到Agent落地/","2026/09/11/2026普通人AI提效30天路线图/","2026/08/27/Idm激活/","2026/07/29/瓦学家_开篇/","2026/07/28/players/","2026/07/27/crosshair-library/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
